@@ -47,12 +47,12 @@ The goal of this analysis was to build a machine learning model (a neural networ
 
 To improve the model, I tried:
 
-- Grouping rare categorical values more aggressively  
-- Adding or reducing neurons in the hidden layers  
-- Changing the number of epochs  
-- Adjusting the number of hidden layers  
+- Increased the number of neurons in the hidden layers  
+- Added dropout layers to reduce overfitting
+- Changing the optimizer from Adam to RMSprop
 
-Each change affected performance somewhat, but improvements plateaued near 72–73% accuracy.
+After implementing these changes, the model achieved a final accuracy of 72.65% with a loss of 0.5560. 
+Despite the adjustments, performance plateaued around the 72–73% range.
 
 ---
 
