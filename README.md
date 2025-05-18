@@ -1,4 +1,4 @@
-# Neural Network Model Report for Alphabet Soup
+# Neural Network Model Report for Alphabet Soup 🧠
 ---
 ## Overview of the Analysis
 
@@ -7,7 +7,7 @@ The goal of this analysis was to build a machine learning model (a neural networ
 ---
 ## Results
 
-### Data Preprocessing
+### Data Preprocessing 🧹
 
 - **Target variable:**  
   The target variable was `IS_SUCCESSFUL`, which indicates if the funding was used effectively by the applicant (1 = successful, 0 = not successful).
@@ -26,7 +26,7 @@ The goal of this analysis was to build a machine learning model (a neural networ
 
 ---
 
-### Compiling, Training, and Evaluating the Model
+### Compiling, Training, and Evaluating the Model 🧠⚙️
 
 - **Model architecture:**  
   - Input layer matching the number of features  
@@ -43,7 +43,7 @@ The goal of this analysis was to build a machine learning model (a neural networ
 
 ---
 
-### Model Optimization Attempts
+### Model Optimization Attempts 📊🛠️
 
 To improve the model, I tried:
 
